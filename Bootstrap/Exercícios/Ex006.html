@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar bg-danger navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-bootstrap-fill fs-2 me-2"></i>
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="menuNavBar">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link">Inicio</a>
+
+                    <div class="dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Teoria</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/Bootstrap/01-CriandoBotoes.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>01-Botões</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/02-CriandoBotoes.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>02-Container</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/03-responsivo.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>03-Responsividade</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/04-Forms.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>04-Forms</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/05-Tabelas.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>05-Tabelas</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/06-SistemadeGrid.html" class="dropdown-item"><i class="bi bi-archive-fill"></i>06-Grid</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Exercícios</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/Bootstrap/Exercícios/Ex01.html" class="dropdown-item">Ex.01</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/Exercícios/Ex02.html" class="dropdown-item">Ex.02</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/Exercícios/Ex03.html" class="dropdown-item">Ex.03</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/Exercícios/Ex004.html" class="dropdown-item">Ex.04</a>
+                            </li>
+                            <li>
+                                <a href="/Bootstrap/Exercícios/Ex005.html" class="dropdown-item">Ex.05</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!--Sessão de Carousel-->
+        <section id="MeuCarrossel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <!--Indicadores de banner-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="2"></button>
+            </div>
+                <!--Lista de imagens - Banners-->
+            <div class="carousel-inner">
+                <!--Imagem 1-->
+                <div class="carousel-item active" data-bs-interval="500">
+                    <img src="https://picsum.photos/1280/420?random=1" class="w-100 d-block" alt="">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <!--Imagem 2-->
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/420?random=2" class="w-100 d-block" alt="">
+                </div>
+                <!--Imagem 3-->
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/420?random=3" class="w-100 d-block" alt="">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#MeuCarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#MeuCarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

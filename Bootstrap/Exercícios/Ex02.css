@@ -1,0 +1,15 @@
+
+#fundo{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+#prin{
+    background-color: rgba(155, 155, 155, 0.264);
+}

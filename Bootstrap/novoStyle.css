@@ -1,0 +1,10 @@
+:root{
+    --primary: blue;
+    --secondary: #00ff6e;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.text-secondary{
+    color: var(--secondary) !important;
+}
