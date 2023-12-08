@@ -1,0 +1,17 @@
+@section scripts{
+    <script src="~/js/Grafico.js"></script>
+}
+
+@model IEnumerable<App.Models.Pais>
+
+@{
+    ViewData["Title"] = "Grafico";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindos</h1>
+    <p>Construindo nosso gráfico com C# e JS</p>
+</div>
+<div class="text-center">
+    <canvas id="meuGrafico"class="border border-dark" width="800" height="600"></canvas>
+</div>
